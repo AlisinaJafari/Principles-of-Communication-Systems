@@ -50,9 +50,36 @@ By averaging over t , the result will be :
 
 Obviously , these 2 plots are the same .There is no dependency to the variable t ,therfore the process is WSS .
 
+# PART 3 ( Introduction to the digital communication )
 
+First of all , I defined the m signal as it was mentioned in the project . (N = 50000)
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/b5e8dc0c-5424-4059-83cb-5e9f3578ff14)
 
+Secondly we are asked to sample the signal by f = 500 Hz .
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/9c6d6280-f817-4f3b-9b60-ebf0a666482e)
 
+The next step is quantization . Accordingly we have to define 32 level of quantization .
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/d0141b25-1b11-46b3-b65e-2e9dfd882e08)
+
+Now we have to digitalize the signal . For this purpose , a pulse signal is given ( which the energy of this pulse is 333.334 ) and we should send a pulse with an amplitude between -31 to 31 as each Index of the quantized signal . 
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/6446d424-07f8-4771-9e3c-8b2aace79522)
+
+In the next part we are going to estimate the power of noise Using these relations :
+
+<img width="508" alt="image" src="https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/e28e78a3-f75a-487e-a2c5-4d89bcfa5a71">
+
+And the input of reciever will be like this :
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/61047478-d084-43fc-a005-1e1510b5e25a)
+
+Now we have to decode the signal . Therfore we have to calculate the product of each pulse with the base pulse and after that we are able to decode the message signal .
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/e57aafab-358a-4fc6-a1c4-d51517889ef4)
+
+Finally we have to calculate the error and BER .
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/246b4e77-b75c-4cc7-a607-acd5aec06f41)
