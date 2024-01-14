@@ -24,8 +24,17 @@ It is clear that if the value of N is increased , the histogram would get closer
 
 # PART 2 ( Random process )
 
+According to calculations below , this random process is WSS .
 
+<img width="595" alt="image" src="https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/ff387c45-0c59-45a6-8c5c-88db510c1c1a">
 
+At first we have to define a 101*10000 matrix to generate a unique array of theta for each index of time . After averaging the matrix over theta we have :
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/a871f730-91f6-45c6-80e3-7e20895e1c3c)
+
+Now we should define X(t + tau) and X(t) and calculate the product of them and average over theta , after these steps the 3D auto-correlation function is ready to be plotted :
+
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/d49b37cb-dc34-4142-abea-ce87528bfcaa)
 
 
 
