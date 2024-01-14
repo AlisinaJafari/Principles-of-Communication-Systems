@@ -36,11 +36,19 @@ Now we should define X(t + tau) and X(t) and calculate the product of them and a
 
 ![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/d49b37cb-dc34-4142-abea-ce87528bfcaa)
 
+In this part we need to compare these plots to the theoretical results . so the functions of E(x) and R(x) were plotted :
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/42323999-4975-40fd-b440-dab265b7dcf4)
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/238f6933-dad6-48f0-bb6b-1e2b1640c80c)
 
+As we observed , the plots are approximately the same . And by increasing the N , the plots will be much more similar .
 
+By averaging over t , the result will be :
 
+![image](https://github.com/AlisinaJafari/Principles-of-Communication-Systems/assets/156543672/e726472b-784c-4959-ab6b-1dbed4a7a008)
+
+Obviously , these 2 plots are the same .There is no dependency to the variable t ,therfore the process is WSS .
 
 
 
